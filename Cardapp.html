@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+<meta name="keywords" content="LightYear,LightYearAdmin,光年,后台模板,后台管理系统,光年HTML模板">
+<meta name="description" content="Light Year Admin V5是一个基于Bootstrap v5.1.3的后台管理系统的HTML模板。">
+<title>软件下载-(LHopoA)官方网站</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="stylesheet" type="text/css" href="materialdesignicons.min.css">
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="style.min.css">
+</head>
+  
+<body>
+<!--页面loading-->
+<div id="lyear-preloader" class="loading">
+  <div class="ctn-preloader">
+    <div class="round_spinner">
+      <div class="spinner"></div>
+      <img src="lh963.png" alt="">
+    </div>
+  </div>
+</div>
+<!--页面loading end-->
+<div class="lyear-layout-web">
+  <div class="lyear-layout-container">
+    <!--左侧导航-->
+    <aside class="lyear-layout-sidebar">
+
+      <!-- logo -->
+      <div id="logo" class="sidebar-header">
+        <a href="index.html"><img src="lh741.png" title="LightYear" alt="LightYear" /></a>
+      </div>
+      <div class="lyear-layout-sidebar-info lyear-scroll">
+
+        <nav class="sidebar-main">
+
+          <ul class="nav-drawer">
+            <li class="nav-item">
+              <a href="index.html">
+                <i class="mdi mdi-home-city-outline"></i>
+                <span>后台首页</span>
+              </a>
+            </li>
+             <li class="nav-item nav-item-has-subnav active open">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-tune"></i>
+                <span>资源中心</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li class="active"> <a href="Cardapp.html">软件下载</a> </li>
+                    </ul>
+            </li>
+             <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)">
+                <i class="mdi mdi-folder-text-outline"></i>
+             <span>官方邮箱</span>
+              </a>
+              <ul class="nav nav-subnav">
+                <li> <a href="#!">lhopoa@foxmail.com</a> </li>
+                <li class="nav-item nav-item-has-subnav">
+                  <a href="#!">QQ.COM</a>
+                  <ul class="nav nav-subnav">
+                    <li> <a href="#!">lhopoa@ qq.com</a> </li>
+                    <li class="nav-item nav-item-has-subnav">
+                      <a href="#!">2075402259@qq.com</a>
+                     <ul class="nav nav-subnav">
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li> <a href="https://share.weiyun.com/Clg4k9h8">点我跳转</a> </li>
+                 </ul>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="sidebar-footer">
+          <p class="copyright">
+            <span>Copyright &copy; 2024. </span>
+            <a target="_blank" href="http://www.bixiaguangnian.com">陵寒工作室</a>
+            <span> All rights reserved.</span>
+          </p>
+        </div>
+      </div>
+
+    </aside>
+    <!--End 左侧导航-->
+
+    <!--头部信息-->
+    <header class="lyear-layout-header">
+
+      <nav class="navbar">
+
+        <div class="navbar-left">
+          <div class="lyear-aside-toggler">
+            <span class="lyear-toggler-bar"></span>
+            <span class="lyear-toggler-bar"></span>
+            <span class="lyear-toggler-bar"></span>
+          </div>
+        </div>
+
+        <ul class="navbar-right d-flex align-items-center">
+          <!--顶部消息部分-->
+          <li class="dropdown dropdown-notice">
+            <span data-bs-toggle="dropdown" class="position-relative icon-item">
+              <i class="mdi mdi-bell-outline fs-5"></i>
+              <span class="position-absolute translate-middle badge bg-danger">1</span>
+            </span>
+            <div class="dropdown-menu dropdown-menu-end">
+              <div class="lyear-notifications">
+
+                <div class="lyear-notifications-title d-flex justify-content-between" data-stopPropagation="true">
+                  <span>你有 1 条未读消息</span>
+                  <a href="#!">查看全部</a>
+                </div>
+                <div class="lyear-notifications-info lyear-scroll">
+                  <a href="#!" class="dropdown-item"
+                    title="官网已更新至label2">官网已更新至label2</a>
+                </div>
+
+              </div>
+            </div>
+          </li>
+          <!--End 顶部消息部分-->
+          <!--切换主题配色-->
+		  <li class="dropdown dropdown-skin">
+		    <span data-bs-toggle="dropdown" class="icon-item">
+              <i class="mdi mdi-palette fs-5"></i>
+            </span>
+			<ul class="dropdown-menu dropdown-menu-end" data-stopPropagation="true">
+              <li class="lyear-skin-title"><p>主题</p></li>
+              <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_1" value="default" checked="checked">
+                  <label class="form-check-label" for="site_theme_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_2" value="translucent-green">
+                  <label class="form-check-label" for="site_theme_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_3" value="translucent-blue">
+                  <label class="form-check-label" for="site_theme_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_4" value="translucent-yellow">
+                  <label class="form-check-label" for="site_theme_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_5" value="translucent-red">
+                  <label class="form-check-label" for="site_theme_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_6" value="translucent-pink">
+                  <label class="form-check-label" for="site_theme_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_7" value="translucent-cyan">
+                  <label class="form-check-label" for="site_theme_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="site_theme" id="site_theme_8" value="dark">
+                  <label class="form-check-label" for="site_theme_8"></label>
+                </div>
+              </li>
+			  <li class="lyear-skin-title"><p>LOGO</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="logo_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_2" value="color_2">
+                  <label class="form-check-label" for="logo_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_3" value="color_3">
+                  <label class="form-check-label" for="logo_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_4" value="color_4">
+                  <label class="form-check-label" for="logo_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_5" value="color_5">
+                  <label class="form-check-label" for="logo_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_6" value="color_6">
+                  <label class="form-check-label" for="logo_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_7" value="color_7">
+                  <label class="form-check-label" for="logo_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="logo_bg" id="logo_bg_8" value="color_8">
+                  <label class="form-check-label" for="logo_bg_8"></label>
+                </div>
+			  </li>
+			  <li class="lyear-skin-title"><p>头部</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="header_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_2" value="color_2">
+                  <label class="form-check-label" for="header_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_3" value="color_3">
+                  <label class="form-check-label" for="header_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_4" value="color_4">
+                  <label class="form-check-label" for="header_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_5" value="color_5">
+                  <label class="form-check-label" for="header_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_6" value="color_6">
+                  <label class="form-check-label" for="header_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_7" value="color_7">
+                  <label class="form-check-label" for="header_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="header_bg" id="header_bg_8" value="color_8">
+                  <label class="form-check-label" for="header_bg_8"></label>
+                </div>
+			  </li>
+			  <li class="lyear-skin-title"><p>侧边栏</p></li>
+			  <li class="lyear-skin-li clearfix">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_1" value="default" checked="checked">
+                  <label class="form-check-label" for="sidebar_bg_1"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_2" value="color_2">
+                  <label class="form-check-label" for="sidebar_bg_2"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_3" value="color_3">
+                  <label class="form-check-label" for="sidebar_bg_3"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_4" value="color_4">
+                  <label class="form-check-label" for="sidebar_bg_4"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_5" value="color_5">
+                  <label class="form-check-label" for="sidebar_bg_5"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_6" value="color_6">
+                  <label class="form-check-label" for="sidebar_bg_6"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_7" value="color_7">
+                  <label class="form-check-label" for="sidebar_bg_7"></label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="sidebar_bg" id="sidebar_bg_8" value="color_8">
+                  <label class="form-check-label" for="sidebar_bg_8"></label>
+                </div>
+			  </li>
+		    </ul>
+		  </li>
+          <!--End 切换主题配色-->
+          <!--个人头像内容-->
+          <li class="dropdown">
+            <a href="javascript:void(0)" data-bs-toggle="dropdown" class="dropdown-toggle">
+              <img class="avatar-md rounded-circle" src="lh963.png" alt="笔下光年" />
+              <span style="margin-left: 10px;">陵寒工作室</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li>
+                <a class="dropdown-item" href="lyear_pages_login_1.html"
+                  href="javascript:void(0)">
+                  <i class="mdi mdi-account"></i>
+                  <span>登录</span>
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="javascript:void(0)">
+                  <i class="mdi mdi-delete"></i>
+                  <span>清空缓存</span>
+                </a>
+              </li>
+              <li class="dropdown-divider"></li>
+              <li>
+                <a class="dropdown-item" href="lyear_pages_login_1.html">
+                  <i class="mdi mdi-logout-variant"></i>
+                  <span>退出</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <!--End 个人头像内容-->
+        </ul>
+
+      </nav>
+
+    </header>
+    <!--End 头部信息-->
+
+    <!--页面主要内容-->
+    <main class="lyear-layout-content">
+	
+      <div class="container-fluid">
+
+        <div class="row">
+
+          <div class="col-lg-12">
+            <div class="card">
+              <header class="card-header"><div class="card-title">APP下载</div></header>
+              <div class="card-body">
+
+                <p>软件随时更新，保存本站获得及时通知</p>
+
+                <h5>总数量</h5>
+                <p>3个</p>
+
+
+     
+
+                <div class="border-example">
+                  <div class="card text-center">
+                    <div class="card-header">
+                      置顶
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">APP</h5>
+                      <p class="card-text">书续两辽王薛丁山子薛刚，好打抱不平，结怨甚多。因酒醉误将太子踢死，逃出城外。武后大怒，待临朝执政，下令满门抄斩。由此引发了一场反唐故事。</p>
+                      <a href="#" class="btn btn-primary">下载</a>
+                    </div>
+                    <div class="card-footer text-muted">
+                      2024/4/1
+                    </div>
+                  </div>
+                </div>
+               <div class="col-md-6 col-lg-4">
+            <div class="card card-hover-shadow mb-3">
+              <header class="card-header">
+                <div class="card-title">注意 <small> - ⚠</small></div>
+              </header>
+
+              <div class="callout callout-info">如果无法弹出下载框，请 <code>科学上网</code></div>
+              <div class="card-body">
+                   </div>
+            </div>
+          </div>
+
+                      <div class="border-example">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">APP</h5>
+                          <p class="card-text">是一部中国古代的名将的传记。又称《百将传》、《正百将传》，是北宋东光（今河北省东光县）人张预（字公立）用了数年时间编写的。</p>
+                          <a href="#" class="btn btn-primary">下载</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">APP</h5>
+                          <p class="card-text">该书叙述了南北朝一百七十年间由分裂到对峙统一的史实，观点平实，内容丰富，论述有法，用语雅洁，自评自注，理趣兼备，洵为通俗史著的经典。</p>
+                          <a href="#" class="btn btn-primary">下载</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+        
+               </header>
+
+   
+   	           <div class="card border-danger mb-3" style="max-width: 18rem;">
+                    <div class="card-header">资源说明</div>
+                    <div class="card-body text-danger">
+                      <h5 class="card-title">提示</h5>
+                      <p class="card-text">本页资源均为原创 ©陵寒工作室</p>
+                    </div>
+                  </div>
+                 </div>
+            </div>
+          </div>
+
+	</main>
+    <!--End 页面主要内容-->
+  </div>
+</div>
+
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="popper.min.js"></script>
+<script type="text/javascript" src="bootstrap.min.js"></script>
+<script type="text/javascript" src="lyear-loading.js"></script>
+<script type="text/javascript" src="perfect-scrollbar.min.js"></script>
+<script type="text/javascript" src="jquery.cookie.min.js"></script>
+<script type="text/javascript" src="main.min.js"></script>
+</body>
+</html>
